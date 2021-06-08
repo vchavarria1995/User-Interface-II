@@ -202,8 +202,59 @@ footer a:hover{
     .about-txt{
         padding:0 10%;
     }
-    .gallery img{
-        width:90%;
-    }
     
+.galleryimg{
+    width:50%;
+    display:flex;
+    justify-content: center;
+}
+
+    .one{
+        order:0;
+    }
+    .two{
+        order:1
+    }
+    .three{
+        order:2;
+    }
+    .four{
+        order:3;
+    }
+    .five{
+        order:4;
+    }
+    .six{
+        order:5;
+    }
+    .seven{
+        order:6;
+    }
+    .eight{
+        order:7;
+    }
+    .nine{
+        order:8;
+    }
+    .ten{
+        order:9;
+    }
+    .eleven{
+        order:10;
+    }
+    .twelve{
+        order:11;
+    }
+    .thirteen{
+        order:12;
+    }
+    .fourteen{
+        order:13;
+    }
+    .fifteen{
+        order:14;
+    }
+    .sixteen{
+        order:15;
+    }
 }
