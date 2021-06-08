@@ -122,6 +122,35 @@ header a:hover{
 }
 
 /*Gallery Section Styles*/
+.gallery{
+    max-width: 100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.galleryimg{
+    width:20%;
+    padding:1%;
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.gallerytxt{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:2% 4%;
+    margin: 0 auto;
+    text-align:center;
+}
 
 
 /*Footer Section Styles*/
