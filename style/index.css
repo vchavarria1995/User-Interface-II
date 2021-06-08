@@ -68,7 +68,7 @@ h2{
     font-size:3.5rem;
 }
 section{
-    padding:4% 0;
+    padding:2% 0;
 }
 a{
     text-decoration:none;
@@ -76,21 +76,21 @@ a{
 }
 
 /*Header Section Styles*/
-header nav{
+ul{
+    width:40%;
     display:flex;
-    justify-content:space-between;
-    align-items:center;
-    height:5vh;
+    flex-direction:row;
+    justify-content: space-evenly;
+    text-align:center;
+}
+header nav{
     font-weight:bold;
+    top:0;
+    width:100%;
+    z-index:999;
 }
 header a:hover{
     color:teal;
-}
-.links{
-    width:15%;
-    display:flex;
-    justify-content:space-evenly;
-    align-items:center;
 }
 
 /*Top Section Styles*/
@@ -104,11 +104,12 @@ header a:hover{
     width:30%;
     object-fit:contain;
     align-self:flex-start;
+    padding:2%;
 }
 
 .about-txt{
     text-align:center;
-    padding:7% 2% 0;
+    padding:6% 2% 0;
 }
 .about button{
     background-color:#008CBA;
@@ -117,34 +118,40 @@ header a:hover{
     padding: 2% 5%;
 }
 .about p{
-    font-size:2.5rem
+    font-size:1.8rem;
 }
 
 /*Gallery Section Styles*/
+.gallery{
+    max-width: 100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
-.gallery img{
+.container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.galleryimg{
     width:20%;
-}
-.row1{
+    padding:1%;
+    margin: 0 auto;
     display:flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
-.row2{
+.gallerytxt{
     display:flex;
-    justify-content:space-evenly;
+    justify-content: center;
+    align-items: center;
+    padding:2% 4%;
+    margin: 0 auto;
+    text-align:center;
 }
-.row1txt{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding: 2% 11% 2%;
-}
-.row2txt{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding: 2% 11% 2%;
-}
+
 
 /*Footer Section Styles*/
 
@@ -165,4 +172,89 @@ footer a{
 }
 footer a:hover{
     color:turquoise
+}
+
+/*Responsive Styles*/
+
+@media(max-width:800px){}
+@media(max-width:500px){
+    h1{
+        text-align:center;
+    }
+    nav{
+        flex-direction:column;
+        align-items:center;
+        
+    }
+    ul {
+        display:flex;
+        flex-direction:column;
+        width:100%;
+    }
+    
+    .about img{
+        width:50%;
+    }
+    .about{
+        display:flex;
+        flex-wrap:wrap;
+    }
+    .about-txt{
+        padding:0 10%;
+    }
+    
+.galleryimg{
+    width:50%;
+    display:flex;
+    justify-content: center;
+}
+
+    .one{
+        order:0;
+    }
+    .two{
+        order:1
+    }
+    .three{
+        order:2;
+    }
+    .four{
+        order:3;
+    }
+    .five{
+        order:4;
+    }
+    .six{
+        order:5;
+    }
+    .seven{
+        order:6;
+    }
+    .eight{
+        order:7;
+    }
+    .nine{
+        order:8;
+    }
+    .ten{
+        order:9;
+    }
+    .eleven{
+        order:10;
+    }
+    .twelve{
+        order:11;
+    }
+    .thirteen{
+        order:12;
+    }
+    .fourteen{
+        order:13;
+    }
+    .fifteen{
+        order:14;
+    }
+    .sixteen{
+        order:15;
+    }
 }
