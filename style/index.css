@@ -77,7 +77,7 @@ a{
 
 /*Header Section Styles*/
 ul{
-    width:100%;
+    width:40%;
     display:flex;
     flex-direction:row;
     justify-content: space-evenly;
@@ -123,31 +123,6 @@ header a:hover{
 
 /*Gallery Section Styles*/
 
-.gallery img{
-    width:20%;
-}
-.row1{
-    display:flex;
-    justify-content:space-evenly;
-    flex-wrap:wrap;
-}
-.row2{
-    display:flex;
-    justify-content:space-evenly;
-    flex-wrap:wrap;
-}
-.row1txt{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding: 2% 11% 2%;
-}
-.row2txt{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding: 2% 11% 2%;
-}
 
 /*Footer Section Styles*/
 
@@ -185,6 +160,7 @@ footer a:hover{
     ul {
         display:flex;
         flex-direction:column;
+        width:100%;
     }
     
     .about img{
